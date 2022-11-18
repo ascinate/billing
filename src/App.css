@@ -215,6 +215,7 @@ position: relative;
   padding-left: 257px;
   transition: all .4s ease 0s;
   width: 100%;
+  padding-bottom: 35px;
 }
 .left-user-section{
   width: 370px;
