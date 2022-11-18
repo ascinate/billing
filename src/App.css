@@ -577,3 +577,40 @@ margin-left: 10px;
   }
 }
 
+@media (min-width: 1600px){
+  .right-tabs1 {
+    width: 97%;
+    display: block;
+    margin-left: 0;
+    padding-left: 60px;
+  }
+  .top-bar-menu{
+    height:75px;
+    width: 84%;
+  }
+  .comon-page-head{
+    top:77px;
+  }
+}
+
+@media (min-width: 1920px){
+  .top-bar-menu{
+    width: 86.5%;
+  }
+  .right-tabs1 {
+    width: 96%;
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .top-bar-menu{
+    height:75px;
+  }
+  .comon-page-head{
+    top:77px;
+  }
+  .body-account-sec{
+    padding-top: 120px;
+  }
+}
+
