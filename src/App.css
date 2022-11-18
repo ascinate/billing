@@ -591,6 +591,9 @@ margin-left: 10px;
   .comon-page-head{
     top:77px;
   }
+  .logo-admin{
+    height: 75px;
+  }
 }
 
 @media (min-width: 1920px){
