@@ -454,6 +454,7 @@ justify-content: center;
   align-items: center;
   padding: 5px 0 0 28px;
   font-size: 12px;
+  position: relative;
 }
 .toogle-btn{
   width: 35px;
@@ -514,6 +515,35 @@ margin-left: 10px;
 }
 .sidebar-menu.active .tog-btn{
   right: -10px;
+}
+.numb{
+  width: 20px;
+  height: 19px;
+  border-radius: 30px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  right: -13px;
+  top: 0;
+  color: #fff;
+  font-size: 10px;
+  line-height: 15px;
+}
+.main-menu .dropdown-menu > li:nth-child(1) .numb{
+  background: #1C3238 0% 0% no-repeat padding-box;
+}
+.main-menu .dropdown-menu > li:nth-child(2) .numb{
+  background: #392F28 0% 0% no-repeat padding-box;
+}
+
+.main-menu .dropdown-menu > li:nth-child(3) .numb{
+  background: #3A2434 0% 0% no-repeat padding-box;
+}
+
+
+.main-menu .dropdown-menu > li:last-child .numb{
+  background: #323248 0% 0% no-repeat padding-box;
 }
 @media (min-width: 1366px){
 /* .dasb-div {

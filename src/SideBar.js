@@ -32,17 +32,23 @@ function SideBar(){
                             <li>
                             <NavLink to="/booking" activeClassName="menu_active"> <span className="menu-icon-new"> 
                             <img src={arrowicon} alt="arro"/>
-                            </span> <span className="menu-text"> Active </span> </NavLink>
+                            </span> <span className="menu-text"> Active </span> 
+                              <span className="numb">1</span>
+                            </NavLink>
                             </li>
                             <li>
                             <NavLink to="/booking" activeClassName="menu_active"> <span className="menu-icon-new"> 
                             <img src={arrowicon} alt="arro"/>
-                            </span> <span className="menu-text"> Suspended </span> </NavLink>
+                            </span> <span className="menu-text"> Suspended </span> 
+                            <span className="numb">1</span>
+                            </NavLink>
                             </li>
                             <li>
                             <NavLink to="/booking" activeClassName="menu_active"> <span className="menu-icon-new"> 
                             <img src={arrowicon} alt="arro"/>
-                            </span> <span className="menu-text"> Suspended </span> </NavLink>
+                            </span> <span className="menu-text"> Suspended </span> 
+                            <span className="numb">1</span>
+                            </NavLink>
                             </li>
                             <li>
                             <p> Show Cancelled Services 
@@ -53,7 +59,9 @@ function SideBar(){
                             <li>
                             <NavLink to="/booking" activeClassName="menu_active"> <span className="menu-icon-new"> 
                             <img src={arrowicon} alt="arro"/>
-                            </span> <span className="menu-text"> Cancelled </span> </NavLink>
+                            </span> <span className="menu-text"> Cancelled </span> 
+                            <span className="numb">1</span>
+                            </NavLink>
                             </li>
                             
                         </ul>
